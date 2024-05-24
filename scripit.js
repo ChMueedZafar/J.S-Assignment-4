@@ -197,6 +197,12 @@ console.log(a = d.getMonth());
 console.log(a = d.getSeconds());
 console.log(a = d.getTime());
 
+// Events:-
+
+document.getElementById('my button ').addEventListener('click',function(){
+    alert('button clicked!');
+    console.log('button clicked');
+});
 
 
 
